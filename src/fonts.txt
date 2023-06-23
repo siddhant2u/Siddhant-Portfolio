@@ -1,0 +1,25 @@
+import { ContactMailIcon, CallIcon, PinDropIcon, GitHubIcon, LinkedInIcon, TwitterIcon} from "@material-ui/icons";
+
+
+<ContactMailIcon className='icon'/>
+
+
+<CallIcon className='icon'/>
+
+
+<GitHubIcon className='icon'/>
+
+
+<LinkedInIcon className='icon'/>
+
+
+<TwitterIcon className='icon'/>
+
+
+<PinDropIcon className='icon'/>
+
+
+<div className='address'>
+          
+          <p>601/17G Indiabulls Greens, Panvel, Navi Mumbai, Maharashtra, 410206</p>
+      </div>

@@ -1,0 +1,255 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    min-height: fit-content;
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
+
+.profile-parent {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 128, 117);
+}
+
+.profile-details-name{
+    font-family: "Poppins SemiBold";
+}
+
+.hello{
+    font-size: 1.7em;
+    padding:10px;
+    padding-top:20px;
+}
+
+.highlighted-text{
+    font-size: 3em;
+}
+
+.profile-details-role {
+    display:flex;
+    flex-direction: column;
+    margin: 3vh;
+}
+
+.profile-details-role h1 {
+    font-size: 1.5em;
+    font-family: cursive;
+}
+
+.primary-text h1 {
+    font-size: 1.3rem;
+    font-family: cursive;
+}
+
+.highlighted-text{
+    color: var(--dark-orange);
+}
+
+.profile-options .btn{
+    font-size:12px;
+}
+
+.profile-options .btn:hover{
+    background-color: cornsilk;
+    color: #111;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    width:380px;
+    height: 380px;
+    margin: 0 0px 0 100px;
+}
+
+.profile-picture-background{
+    height:92%;
+    width:92%;
+    background-image: url('../../../assets/home/sid.jpg');
+    background-size:cover;
+    border-radius: 50%;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.profile-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1.5s ease-out;
+}
+
+.colz .colz-icon i{
+    color: blue;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 14px 0;
+    width: 160px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-family: "Poppins SemiBold";
+
+    color: var(--white);
+    font-size: 12px;
+    background-color: #ff5823;
+  }
+  
+  .btn:active {
+    transform: translateY(2px);
+  }
+
+  /*@media screen and (max-width: 1110px){
+    .profile-picture{
+        margin:0 0px 0 80px;
+        height:400px;
+        width:400px;
+    }
+
+    .profile-parent{
+        flex-direction: column-reverse;
+    }
+
+    .profile-details-role .primary-text{
+        font-size: 12px;
+    }
+
+    .profile-options .btn{
+        width:120px;
+        padding: 11px 0;
+        z-index: 700;
+        justify-items: center;
+    }
+    .profile-container{
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 910px){
+    .profile-picture{
+        height: 320px;
+        width:320px;
+        margin: 0 0 0 4px;
+    }
+
+    .profile-options .btn{
+        justify-items: center;
+    }
+}*/
+
+@media screen and (max-width: 1110px){
+    .profile-picture{
+        margin: 0 !important;
+        height:450px;
+        width:450px;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+    }
+    
+    .profile-options .btn{
+        justify-items: center;
+    }
+
+    .profile-details{
+        margin-top: 50px;
+    }
+    .profile-options .btn {
+        margin: 0 !important;
+        font-size: 20px;
+        padding:10px;
+        /*display: none;*/
+    }
+    .profile-options, .profilr-details-role {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .hello{
+        font-size: 40px;
+    }
+
+    .colz-icon i{
+        height:20px;
+        width:20px;
+    }
+
+    .profile-container{
+        padding-top: 45px;
+    }
+
+    .highlighted-text{
+        font-size: 60px;
+    }
+
+    .profile-details-role {
+        margin: 30px;
+        font-size:25px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .profile-picture{
+        margin: 0 !important;
+        height:300px;
+        width:300px;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+    }
+    
+    .profile-options, .btn{
+        justify-items: center;
+    }
+
+    .profile-details{
+        margin: 25px 0 0;
+    }
+    
+    .profile-container{
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .profile-picture{
+        margin: 0 !important;
+        height:230px;
+        width:230px;
+    }
+
+    .profile-details {
+        width: 90%;
+    }
+    
+    .highlighted-text{
+        font-size: 40px;
+    }
+
+    .profile-details-role {
+        margin: 30px;
+        font-size:15px;
+    }
+
+    .hello{
+        font-size: 20px;
+    }
+}

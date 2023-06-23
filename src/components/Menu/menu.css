@@ -1,0 +1,43 @@
+.menu {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s ease;
+}
+
+
+.active {
+  right: 0;
+}
+
+.menuList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 30px;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  width: 60%;
+}
+
+.listItems {
+  margin-bottom: 25px;
+}
+      
+.listLink{
+  font-size: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.listLink:hover {
+  font-weight: 500;
+  text-decoration: none;
+}
