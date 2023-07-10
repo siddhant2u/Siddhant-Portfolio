@@ -1,6 +1,6 @@
 import "./App.css";
 import Contact from "./components/Contact/Contact"
-import Home from "./components/home/Home";
+import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import { useState } from "react";

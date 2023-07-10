@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import './Profile.css';
+import './profile.css';
 import './resume.pdf';
 
 const Profile = React.memo(() => {

@@ -1,17 +1,17 @@
 {
-  "name": "siddhant",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
-    "cra-template": "1.1.2",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-scripts": "4.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "react-typical": "^0.1.3",
-    "sass": "^1.43.4"
-},
+    "sass": "^1.63.6",
+    "web-vitals": "^2.1.4"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -35,5 +35,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  },
+  "babel": {
+    "plugins": [
+      "@babel/plugin-proposal-private-property-in-object"
+    ]
+  }  
 }

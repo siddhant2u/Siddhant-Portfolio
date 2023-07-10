@@ -20,6 +20,5 @@ import { ContactMailIcon, CallIcon, PinDropIcon, GitHubIcon, LinkedInIcon, Twitt
 
 
 <div className='address'>
-          
-          <p>601/17G Indiabulls Greens, Panvel, Navi Mumbai, Maharashtra, 410206</p>
-      </div>
+    <p>601/17G Indiabulls Greens, Panvel, Navi Mumbai, Maharashtra, 410206</p>
+</div>
